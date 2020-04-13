@@ -1,0 +1,134 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#FFFFFA;
+}
+.encabezado{
+	background: #ededed;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	height: 40px;
+	text-align: center;
+	padding-top:  18px;
+	font-size: 30px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+header {
+	width:100%;
+}
+
+header nav {
+	height: auto;
+	margin:0px auto;
+	overflow: hidden;
+	text-align: left;
+	background:#024959;
+	width: 100%
+
+}
+
+.menu {
+	display:none;
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.icono{
+	font-size: 25px;
+}
+
+header nav ul {
+	float: left;
+	list-style:none;
+	padding: 0;
+	position: relative;
+	left: 50%;
+
+}
+
+header nav ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+	background:#037E8C;
+}
+
+section {
+	padding:20px;
+}
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:100%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu .boton-menu {
+		display:block;
+		padding:20px;
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu span {
+		float:right;
+		font-size:40px;
+	}
+
+}
+#corazon_historia{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#corazon_historia img{
+	width: 45%;
+  	margin: 0;
+  	min-height: 100vh;
+  	background-position: center;
+  	background-attachment: fixed;
+}
