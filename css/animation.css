@@ -1,3 +1,5 @@
+
+
 .gustosIn{
     animation-duration: 4s;
     animation-fill-mode: both;
@@ -17,11 +19,11 @@
 }
 
 .gustosInUp{
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: both;
     animation-name: gustosInUp;
 
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     -webkit-animation-name: gustosInUp;
 }
@@ -29,8 +31,52 @@
 @keyframes gustosInUp{
     from {
         opacity: 0;
-        transform: translate3d(0,100%,0);
-        -webkit-transform: translate3d(0,100%,0) ;
+        transform: translate3d(0,50%,0);
+        -webkit-transform: translate3d(0,50%,0) ;
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0) ;
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+/*Animaciones metas   =*/
+
+
+
+.metasIn{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: metasIn;
+
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: metasIn;
+}
+
+@keyframes metasIn{
+
+    from{
+        opacity: 0;}
+    to{
+        opacity: 1;}
+}
+
+.metasInUp{
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-name: metasInUp;
+
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: metasInUp;
+}
+
+@keyframes metasInUp{
+    from {
+        opacity: 0;
+        transform: translate3d(0,50%,0);
+        -webkit-transform: translate3d(0,50%,0) ;
     }
     to{
         opacity: 1;

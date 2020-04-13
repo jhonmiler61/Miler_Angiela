@@ -1,0 +1,39 @@
+
+.metas-title{
+    text-align: center;
+    background-color: #5E4A4A;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.fotoJuntos img{
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 3px #5E4A4A;
+}
+
+.meta-container{
+    background-color: #A9A7EB;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 15px 0px 15px 15px;
+    
+}  
+
+.name-meta{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.lista-meta{
+    list-style: none;
+}
+
+.lista-meta{
+    padding: 10px;
+    color: #5E4A4A;
+}

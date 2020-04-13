@@ -37,13 +37,10 @@ color: white;
   .gusto-angiela{
     margin: 10px 10px 10px 1px;
   }
-
-
    .name{
 
     font-size: 22px;
     color: white;
-
 
    }
    .lista{
@@ -51,18 +48,14 @@ color: white;
        list-style: none;
        text-align: left;
    }
+   
 
-
-   @media (max-width:600px){
-    
-}
-
+   
 @media (max-width:600px) {
-
    
     .foto-gusto-container{
         
-        padding: auto;
+        margin: auto;
     }
 
     .cora ,.title-cora{
@@ -72,11 +65,16 @@ color: white;
     .title-gustos{
         display: flex;
     }
-
-
     .gusto-miler , .gusto-angiela{
         margin: 10px auto;
         width: 85%;
     }
 
+
+
+
   }
+
+
+
+ 
