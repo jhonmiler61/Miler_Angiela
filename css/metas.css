@@ -37,3 +37,20 @@
     padding: 10px;
     color: #5E4A4A;
 }
+@media (max-width:600px){
+    .meta-container{
+
+        margin-left: 0px;
+        height: 80%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    
+    .metas-title{
+        padding: auto;
+        box-sizing: border-box;
+    }
+}
+
+

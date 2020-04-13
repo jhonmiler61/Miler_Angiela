@@ -61,13 +61,16 @@ color: white;
     .cora ,.title-cora{
         display: inline;
         padding: auto;
+        
     }
     .title-gustos{
         display: flex;
+        box-sizing: border-box;
     }
     .gusto-miler , .gusto-angiela{
         margin: 10px auto;
-        width: 85%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
 
