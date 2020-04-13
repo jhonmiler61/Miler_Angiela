@@ -1,0 +1,17 @@
+.gustosIn{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: gustosIn;
+
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: gustosIn;
+}
+
+@keyframes gustosIn{
+
+    from{
+        opacity: 0;}
+    to{
+        opacity: 1;}
+}
